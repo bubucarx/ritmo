@@ -5,7 +5,9 @@ body {
 }
 
 section {
-  background-image: url("image/pexels-luan-goncalves-1264152-13911606\ 1.png");
+  background-image: url("image/pexels-luan-goncalves-1264152-13911606 1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .cabecario {
@@ -14,7 +16,6 @@ section {
 }
 
 .homepage {
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,14 +23,27 @@ section {
   height: 100vh;
 }
 
-.conteudo-homepage{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.conteudo-homepage {
+  justify-content: end;
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-homepage-2 {
+  justify-content: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .descubra {
-  background-image: linear-gradient(to right, #B0E4A9, #617E5D);
+  margin: 0;
+  background-image: linear-gradient(to right, #6beb5a, #025728);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -37,8 +51,100 @@ section {
   font-size: 50px;
 }
 
-.brasil{
-    font-size: 120px;
+.brasil {
+  color: white;
+  font-family: "Moldern";
+  margin: 0;
+  font-size: 120px;
+}
+
+.underline {
+  border-radius: 10px;
+  height: 4px;
+  width: 15em;
+  background-image: linear-gradient(to right, #d9d9d9, #1cff3e);
+}
+
+.paragrafo-homepage {
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  max-width: 80%;
+}
+
+.butao-homepage {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-image: linear-gradient(to right, #34782b, #a5ef9b);
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  width: 13rem;
+  height: 50px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.butao-homepage:hover {
+  opacity: 0.8;
+  border: 1px solid white;
+}
+
+.fa-chevron-down {
+  animation: movimento 1.8s infinite ease-in-out;
+  font-size: 16px;
+  color: white;
+}
+
+.fa-computer-mouse {
+  opacity: 0.8;
+  animation: movimento 1.8s infinite ease-in-out;
+  color: rgb(156, 156, 156);
+}
+
+@keyframes movimento {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(1px);
+  }
+  20% {
+    transform: translateY(2px);
+  }
+  30% {
+    transform: translateY(3px);
+  }
+  40% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  60% {
+    transform: translateY(4px);
+  }
+  70% {
+    transform: translateY(3px);
+  }
+  80% {
+    transform: translateY(2px);
+  }
+  90% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .logo {
