@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-section {
+.homepage {
   background-image: url("image/pexels-luan-goncalves-1264152-13911606 1.png");
   background-size: cover;
   background-position: center;
@@ -77,7 +77,7 @@ section {
 .butao-homepage {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 15px;
   color: white;
   background-image: linear-gradient(to right, #34782b, #a5ef9b);
   cursor: pointer;
@@ -106,6 +106,7 @@ section {
 }
 
 .fa-computer-mouse {
+  font-size: 16px;
   opacity: 0.8;
   animation: movimento 1.8s infinite ease-in-out;
   color: rgb(156, 156, 156);
@@ -155,7 +156,46 @@ section {
   font-family: "Moldern";
 }
 
+.destino-inicio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.h1-destino{
+    font-size: 40px;
+    color: #22521C;
+    font-family: 'Moldern';
+}
+
+.span-destino {
+  background: linear-gradient(90deg, #6FD961, #238116);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.underline-destino{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #6FD961, #238116);
+    border-radius: 10px;
+    height: 4px;
+    width: 15em;
+}
+
+.h3-destino{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
 @font-face {
   font-family: Moldern;
-  src: url("fonts/Moldern.otf") format("truetype");
+  src: url("fonts/Moldern.ttf") format("truetype");
 }
