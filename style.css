@@ -148,6 +148,8 @@ body {
   }
 }
 
+/*DESTINOS*/
+
 .logo {
   padding-top: 1em;
   padding-left: 2em;
@@ -161,41 +163,257 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 100vh;
+  height: 200vh;
 }
 
-.h1-destino{
-    font-size: 40px;
-    color: #22521C;
-    font-family: 'Moldern';
+.h1-destino {
+  font-size: 40px;
+  color: #22521c;
+  font-family: "Moldern";
 }
 
 .span-destino {
-  background: linear-gradient(90deg, #6FD961, #238116);
+  background: linear-gradient(90deg, #0fcf6f, #238116);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
 
-.underline-destino{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(90deg, #6FD961, #238116);
-    border-radius: 10px;
-    height: 4px;
-    width: 15em;
+.underline-destino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #6fd961, #238116);
+  border-radius: 10px;
+  height: 4px;
+  width: 15em;
 }
 
-.h3-destino{
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 20px;
+.h3-destino {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
 }
 
+.destino-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  height: 100px;
+  width: 100px;
+  background-color: #d9ffd4;
+  margin-bottom: 10px;
+}
+
+.texto-destino {
+  margin: 0;
+}
+
+.icon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h2-destino {
+  font-weight: 900;
+  font-size: 40px;
+  color: #22521c;
+  font-family: "Aequitas";
+  margin: 0;
+}
+
+.p-destino {
+  color: #34782b;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.fa-location-dot {
+  font-size: 2.5rem;
+  color: #22521c;
+}
+
+.fa-camera {
+  font-size: 2.5rem;
+  color: #22521c;
+}
+
+.fa-heart {
+  font-size: 2.5rem;
+  color: #22521c;
+}
+
+.apaixonado-destino {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #22521c, #3ed36b);
+  padding-top: 15px;
+  font-size: 5rem;
+  font-family: "Aequitas";
+}
+
+.fotos-destino {
+  padding: 5rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 470px;
+  width: 350px;
+}
+
+.destino-foto {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.img-destino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apaixonadobr-destino {
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #22521c, #3ed36b);
+  font-size: 5rem;
+  font-family: "Aequitas";
+}
+
+.p-destinobr {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.butao-destino {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: linear-gradient(to right, #4ca241, #0f5806);
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  width: 13rem;
+  height: 50px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  gap: 8px;
+}
+
+.butao-destino:hover {
+  opacity: 0.8;
+  border: 1px solid white;
+}
+
+/* DESTINO */
+
+.footer {
+  justify-content: space-between;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 25px;
+  margin: 0;
+  background-color: #22521c;
+  height: 30vh;
+}
+
+.div-footer {
+  margin: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.logo-footer {
+  padding-top: 3rem;
+  margin: 0;
+  font-weight: 300;
+  font-size: 50px;
+  color: white;
+  font-family: "Moldern";
+}
+
+.p-footer {
+  color: #d9ffd4;
+  font-family: "Poppins";
+  margin: 0;
+  font-size: 18px;
+}
+
+.icon-footer {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  height: 230px;
+  width: 100px;
+}
+
+.fa-instagram {
+  padding-bottom: 2px;
+  margin: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.h2-footer {
+  padding-bottom: 2rem;
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.href-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+.href-footer:hover {
+ animation: brilho-leve 1s ease-in-out infinite alternate;
+}
+
+@keyframes brilho-leve {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
 
 @font-face {
   font-family: Moldern;
   src: url("fonts/Moldern.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Aequitas;
+  src: url("fonts/AequitasBlack-Regular.otf") format("truetype");
 }
