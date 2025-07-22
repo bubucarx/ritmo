@@ -288,7 +288,7 @@ body {
   justify-content: center;
 }
 
-.apaixonadobr-destino {
+#apaixonadobr-destino {
   margin: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -416,4 +416,168 @@ body {
 @font-face {
   font-family: Aequitas;
   src: url("fonts/AequitasBlack-Regular.otf") format("truetype");
+}
+
+@media (max-width: 768px) {
+  .descubra {
+    margin-top: 12rem;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .brasil {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .underline {
+    width: 10em;
+  }
+
+  .paragrafo-homepage {
+    font-size: 16px;
+    max-width: 90%;
+  }
+
+  .butao-homepage {
+    font-family: "Poppins";
+    width: 11rem;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .cabecario {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .logo {
+    font-size: 35px;
+    padding-left: 3.2em;
+  }
+
+  .h1-destino {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .underline-destino {
+    width:14em;
+  }
+
+  .h3-destino {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .destino-icons {
+    padding-top: 15px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .box-icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  .h2-destino {
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .p-destino {
+    padding-bottom: 5rem;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .apaixonado-destino,
+  #apaixonadobr-destino {
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .fotos-destino {
+    padding: 1rem;
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .img-destino {
+    margin: 0;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .p-destinobr {
+    font-size: 16px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .butao-destino {
+    width: 13rem;
+    height: 45px;
+    font-size: 14px;
+    font-family: "Poppins";
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .div-footer {
+    padding: 0;
+  }
+
+  .logo-footer {
+    font-size: 35px;
+    padding-top: 1rem;
+  }
+
+  .p-footer {
+    font-size: 14px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .icon-footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    height: auto;
+    width: auto;
+  }
+
+  .h2-footer {
+    padding: 1rem 0 0.5rem;
+    font-size: 13px;
+  }
+
+  .href-footer {
+    font-size: 13px;
+  }
+
+  .destino-inicio {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .conteudo-homepage,
+  .conteudo-homepage-2 {
+    height: auto;
+    padding: 1rem 0;
+  }
 }
